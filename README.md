@@ -4,7 +4,13 @@
   </a>
 </p>
 
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/baa505c7-d846-47da-b1f8-c51ea4b56318" width="120"/>
+<img src="https://github.com/user-attachments/assets/bfad470b-392d-41a6-8c31-6189db3390ce" alt="UNDER CONSTRUCTION" width="250"/>
+<img src="https://github.com/user-attachments/assets/9d8277b1-e9cc-4e51-893a-cc50cd056431" width="210"/>
+<img src="https://github.com/user-attachments/assets/72b79db5-19a3-48d7-95a5-be317408fafd" width="250"/>
+<img src="https://github.com/user-attachments/assets/5a46688e-b0e3-404b-abe0-aa8182be5bac" width="150"/>
+</p>
 
 <h1 align="center">Windows Vulnerability Scanning: Authenticated vs. Unauthenticated</h1>
 
