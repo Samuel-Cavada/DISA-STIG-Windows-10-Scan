@@ -12,7 +12,9 @@
 <img src="https://github.com/user-attachments/assets/5a46688e-b0e3-404b-abe0-aa8182be5bac" width="120"/>
 </p>
 
-<h1 align="center">Windows Vulnerability Scanning: Authenticated vs. Unauthenticated</h1>
+<h1 align="center">DISA STIG Scan: Windows</h1>
+
+<!--
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
@@ -121,3 +123,5 @@ Access the Windows VM via Remote Desktop Protocol (RDP).
 - Unauthenticated scans, while useful, often miss critical internal vulnerabilities.
 - Gained practical experience in configuring firewall settings, securing Azure environments, and setting up vulnerability scans with and without credentials.
 - Understood the value of credentialed access for thorough security assessments.
+
+-->
