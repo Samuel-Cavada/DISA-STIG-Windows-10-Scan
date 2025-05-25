@@ -53,7 +53,7 @@
 
 ### Step 1: Initial Setup
 > Disabled the Windows Firewall to expose the host and created vulnerable accounts:
-- Disabled Domain/Private/Public firewall profiles via `wf.msc`
+- Disabled the Windows Defender Firewall through 'wf.msc'. [See full provisioning steps ↗](https://github.com/Samuel-Cavada/Disable-the-Firewall-Windows) (Ctrl+Click to open in a new tab).
 - Created a user named "administrator" with a weak password
 - Enabled the Guest account and added it to the Administrators group
 
