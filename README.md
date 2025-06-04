@@ -57,8 +57,6 @@ This project demonstrates how to use a custom Tenable scan template to identify 
 ### Step 1: Create a Windows 10 VM
 Provisioned a Windows 10 VM from the Azure Marketplace. [See full provisioning steps ↗](https://github.com/Samuel-Cavada/Azure-VM-Build) (Ctrl+Click to open in a new tab).
 
-**Security Warning**  
-Do not use weak or known credentials like `labuser / Cyberlab123!` — your VM will be compromised if left exposed.
 
 ---
 
