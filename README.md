@@ -66,6 +66,7 @@ Introduce intentionally insecure configurations.
 - Disabled the Windows Defender Firewall through 'wf.msc'. [See full steps ↗](https://github.com/Samuel-Cavada/Disable-the-Firewall-Windows) (Ctrl+Click to open in a new tab).
 
 - Create a new local admin account:
+- `Open Computer Management → Local Users and Groups → Groups → Administrators → Add`
   - Username: `administrator`
   - Password: `password` (no expiration)
 - Enable and promote the `Guest` account to the Administrators group.
