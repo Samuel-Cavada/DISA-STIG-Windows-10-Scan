@@ -128,17 +128,34 @@ Configure an Advanced Network Scan template.
 
 ### Step 5: Launch a Scan with Your Template
 Create a new scan using the saved template.
+- Navigated to:  
+  `Scans → My Scans → Create Scan → User Defined → Your Template`
 
 - Use the custom template
 - Enter your VM's public IP
 - Input your admin credentials
 - Launch the scan
 
+------------------------
+- **Basic Tab**:
+  - Name: [e.g., Unauthenticated VM Scan]
+  - Discription:
+  - Scanner Type: Internal Scanner
+  - Target: VM’s Public IP
+  - Schedule:
+    
+- **Credentials Tab**:
+  - Add Credentials:
+   - `Add Credentials → Host → Windows`  
+
 ---
 
 ### Step 6: Review Results
-Analyze output in the following sections:
 
+- Navigated to:  
+  `Scans → My Scans → Your Created Scan → See All Details`
+  
+Analyze output in the following sections:
 - Vulnerabilities by Plugin  
 - Compliance Findings  
 - Suggested Remediations  
