@@ -79,18 +79,20 @@ Ensure all external connections are permitted for scanning.
  - `Your Virtual Machine → Networking Tab → Network Settings → Network Security Group → Settings → Inbound Rules  → + Add `
  
 - Under **Inbound Rules**, chnage:
-  - **Source**:  
-  - **Source Port Range**:  
-  - **Destination**:  
-  - **Service**:  
-  - **Protocol**:  
-  - **Action**: Allow all incoming ports  
+  - **Source**: `Any`
+  - **Source Port Range**: `*`
+  - **Destination**: `Any`
+  - **Service**: `Custom`
+  - **Protocol**: `Any` 
+  - **Action**: `Allow`  
   - **Priority**: Use a lower number for higher precedence  
-  - **Name**: Use a clear, descriptive name for tracking  
+  - **Name**: Use a clear, descriptive name for tracking
+  - **Description**: Provide a clear description of the rule
+  - `Save`
 
 - From your local machine, test:
   ```bash
-  ping [Your_VM_Public_IP]
+  ping [Your Virtual Machine Public IP Address]
   ```
 
 ---
