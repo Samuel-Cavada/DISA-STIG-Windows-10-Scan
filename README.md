@@ -105,18 +105,18 @@ Configure an Advanced Network Scan template.
 
 **Basic Tab**
 - Name: `Win-10-compliance-test`
-- Start Remote Registry service during scan [✔]
-- Enable administrative shares during scan [✔]
-- Start Server service during scan [✔]
+- Start Remote Registry service during scan `[✔]`
+- Enable administrative shares during scan `[✔]`
+- Start Server service during scan `[✔]`
 
 **Discovery Tab**
-- Ping remote host [✔]
-- Use fast network discovery [✔]
-- Network Port Scanners: TCP [✔]
+- Ping remote host `[✔]`
+- Use fast network discovery `[✔]`
+- Network Port Scanners: TCP `[✔]`
 
 **Assessment Tab**
-- Perform thorough tests [✔]
-- Only use user-provided credentials [ ] (unchecked)
+- Perform thorough tests `[✔]`
+- Only use user-provided credentials `[✔] (unchecked)`
 
 **Credentials Tab**
 - Use the admin account created earlier (`administrator / password`)
