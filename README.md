@@ -95,6 +95,9 @@ Ensure all external connections are permitted for scanning.
   ping [Your Virtual Machine Public IP Address]
   ```
 
+![Step 5](https://raw.githubusercontent.com/Samuel-Cavada/Windows-Vulnerability-Scanning-Authenticated-vs.-Unauthenticated/main/assets/images/Windows-Vulnerability-Scanning-Authenticated-vs.-Unauthenticated%204.jpg)
+
+
 ---
 
 ### Step 4: Create a Scan Template in Tenable.io
@@ -124,6 +127,8 @@ Configure an Advanced Network Scan template.
 **Compliance Tab**
 - Add DISA Microsoft Windows 10 STIG audit or similar
 
+![Step 4](https://raw.githubusercontent.com/Samuel-Cavada/DISA-STIG-Windows-10-Scan/main/assets/images/STIG13.png)
+
 ---
 
 ### Step 5: Launch a Scan with Your Template
@@ -141,6 +146,8 @@ Create a new scan using the saved template.
   - Add Credentials:
    - `Add Credentials → Host → Windows`  
 
+![Step 5](https://github.com/Samuel-Cavada/DISA-STIG-Windows-10-Scan/blob/main/assets/images/STIG11.png)
+
 ---
 
 ### Step 6: Review Results
@@ -152,6 +159,8 @@ Analyze output in the following sections:
 - Vulnerabilities by Plugin  
 - Compliance Findings  
 - Suggested Remediations  
+
+![Step 6](https://github.com/Samuel-Cavada/DISA-STIG-Windows-10-Scan/blob/main/assets/images/STIG25.png)
 
 ---
 
