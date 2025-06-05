@@ -76,7 +76,18 @@ Introduce intentionally insecure configurations.
 ### Step 3: Open Network Access
 Ensure all external connections are permitted for scanning.
 
-- Edit NSG inbound rules to allow all traffic.
+ - `Your Virtual Machine → Networking Tab → Network Settings → Network Security Group → Settings → Inbound Rules  → + Add `
+ 
+- Under **Inbound Rules**, chnage:
+  - **Source**:  
+  - **Source Port Range**:  
+  - **Destination**:  
+  - **Service**:  
+  - **Protocol**:  
+  - **Action**: Allow all incoming ports  
+  - **Priority**: Use a lower number for higher precedence  
+  - **Name**: Use a clear, descriptive name for tracking  
+
 - From your local machine, test:
   ```bash
   ping [Your_VM_Public_IP]
@@ -86,6 +97,9 @@ Ensure all external connections are permitted for scanning.
 
 ### Step 4: Create a Scan Template in Tenable.io
 Configure an Advanced Network Scan template.
+- Navigated to:  
+  `Scans → My Scans → Create Scan Template→ Advanced Network Scan`
+
 
 **Basic Tab**
 - Name: `Win-10-compliance-test`
