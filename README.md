@@ -131,18 +131,11 @@ Create a new scan using the saved template.
 - Navigated to:  
   `Scans → My Scans → Create Scan → User Defined → Your Template`
 
-- Use the custom template
-- Enter your VM's public IP
-- Input your admin credentials
-- Launch the scan
-
-------------------------
 - **Basic Tab**:
-  - Name: [e.g., Unauthenticated VM Scan]
+  - Name:`[e.g., Unauthenticated VM Scan]`
   - Discription:
-  - Scanner Type: Internal Scanner
-  - Target: VM’s Public IP
-  - Schedule:
+  - Scanner Type: `Internal Scanner`
+  - Target: `VM’s Public IP`
     
 - **Credentials Tab**:
   - Add Credentials:
